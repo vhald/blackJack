@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Card Game</title>
+    <link rel="stylesheet" href="blackjack.css" />
+  </head>
+
+  <body>
+    <div id="main-content" class="container">
+      <h2>
+        <span id="result">♠️ BLACKJACK ♣️</span>
+      </h2>
+
+      <div class="row1">
+        <div id="Player-Box">
+          <h2 id="player">You: <span id="Player-Result">0</span></h2>
+        </div>
+        <div id="Dealer-box">
+          <h2 id="player">Dealer: <span id="Dealer-Result">0</span></h2>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div>
+          <button id="hitButton">Hit</button>
+          <button id="standButton">Stand</button>
+          <button id="dealButton">Deal</button>
+        </div>
+      </div>
+
+      <div class="row3">
+        <table style="color: antiquewhite;">
+          <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+          </tr>
+          <tr>
+            <td><span id="wins">0</span></td>
+            <td><span id="losses">0</span></td>
+            <td><span id="draws">0</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="blackjack.js"></script>
+  </body>
+  <footer style="font-size: 120%; color: red;">Created by Vaibhav, Anupam, Hari, Roshan</footer>
+</html>
